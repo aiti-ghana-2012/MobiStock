@@ -7,6 +7,8 @@ import json
 Requires:
 BeautifulSoup (sudo pip install beautifulsoup4)
 requests (sudo pip install requests) <-- i think
+
+look into Django-Cron --- a django tool for running tasks perioically (every 5,10 minutes or so)
 """
 
 URL = "http://www.gse.com.gh/gseticker/tickerView.php"
