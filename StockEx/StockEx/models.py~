@@ -1,0 +1,16 @@
+from django.db import models
+from django.contrib import admin
+
+# Create your models here.
+class stock_data(models.Model):
+	company_name = models.CharField(max_length=60)
+	index_name = models.CharField(max_length=15,blank=True)
+	volume_traded = models.IntegerField(blank=True)
+	price_per_share = models.FloatField(blank=True)
+	price_change_per_share= models.FloatField(blank=True)
+		
+	def __unicode__(self):
+		return self.company_name
+
+admin.site.register(stock_data)
+

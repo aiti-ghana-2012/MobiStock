@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+{% if note_list %}
+<ul>
+{% for note in note_list %}
+<li><a href="{% url notes_detail note.id
+%}">{{ note.title }}</a></li>
+{% endfor %}
+</ul>
+{% else %}
+You don't have webnotes
+{% endif %}
+{% endblock %}
+
