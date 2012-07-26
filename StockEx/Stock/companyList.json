@@ -1,0 +1,282 @@
+[
+    {
+        "pk": 1, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "ACI ", 
+            "companyName": "Africa Champion Industries Limited "
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "ALW ", 
+            "companyName": "Aluworks Limited "
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "AGA ", 
+            "companyName": "Anglogold Ashanti Limited "
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "AADs ", 
+            "companyName": "Anglogold Ashanti Limited "
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "AYRTN ", 
+            "companyName": "Ayrton Drug Manufacturing Company Limited "
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "BOPP ", 
+            "companyName": "Benso Oil Palm Plantation Limited "
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "CAL ", 
+            "companyName": "CAL Bank Limited "
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "CMLT ", 
+            "companyName": "Camelot Ghana Limited "
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "CLYD ", 
+            "companyName": "Clydestone Ghana Limited "
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "CPC ", 
+            "companyName": "Cocoa Processing Company Limited (CPC) "
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "EBG ", 
+            "companyName": "Ecobank Ghana Limited "
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "EGL ", 
+            "companyName": "Enterprise Group Limited "
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "FML ", 
+            "companyName": "Fan Milk Limited "
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "GCB ", 
+            "companyName": "Ghana Commercial Bank Limited "
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "GOIL ", 
+            "companyName": "Ghana Oil Company Limited (GOIL) "
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "GSR ", 
+            "companyName": "Golden Star Resources Limited "
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "GWEB ", 
+            "companyName": "Golden Web Company Limited "
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "GGBL ", 
+            "companyName": "Guinness Ghana Brewery Limited "
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "HFC ", 
+            "companyName": "Home Finance Company Limited "
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "MLC ", 
+            "companyName": "Mechanical LLoyd Company Limited "
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "PZC ", 
+            "companyName": "Paterson Zochonis (PZ) Cussons Ghana Limited "
+        }
+    }, 
+    {
+        "pk": 22, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "PKL ", 
+            "companyName": "Pioneer Kitchenware Limited "
+        }
+    }, 
+    {
+        "pk": 23, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "PBC ", 
+            "companyName": "Produce Buying Company Limited "
+        }
+    }, 
+    {
+        "pk": 24, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "SWL ", 
+            "companyName": "Sam-Woode Limited "
+        }
+    }, 
+    {
+        "pk": 25, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "SG-SSB ", 
+            "companyName": "Societe Generale - Social Security Bank Limited "
+        }
+    }, 
+    {
+        "pk": 26, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "SCB PREF ", 
+            "companyName": "Standard Chartered Bank Ghana Limited "
+        }
+    }, 
+    {
+        "pk": 27, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "SCB ", 
+            "companyName": "Standard Chartered Bank Ghana Limited "
+        }
+    }, 
+    {
+        "pk": 28, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "SPL ", 
+            "companyName": "Starwin Products Company Limited "
+        }
+    }, 
+    {
+        "pk": 29, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "SIC ", 
+            "companyName": "State Insurance Company Limited "
+        }
+    }, 
+    {
+        "pk": 30, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "TOTAL ", 
+            "companyName": "Total Petroleum Ghana Limited "
+        }
+    }, 
+    {
+        "pk": 31, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "TRANSOL ", 
+            "companyName": "Transaction Solutions (Ghana) Limited (TranSol) "
+        }
+    }, 
+    {
+        "pk": 32, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "TBL ", 
+            "companyName": "Trust Bank (Gambia) Limited "
+        }
+    }, 
+    {
+        "pk": 33, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "TLW ", 
+            "companyName": "Tullow Oil Plc "
+        }
+    }, 
+    {
+        "pk": 34, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "UNIL ", 
+            "companyName": "Unilever Ghana Limited "
+        }
+    }, 
+    {
+        "pk": 35, 
+        "model": "stock.companie", 
+        "fields": {
+            "companyIndex": "UTB ", 
+            "companyName": "UT Financial Services "
+        }
+    }
+]
