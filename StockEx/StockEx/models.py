@@ -63,3 +63,4 @@ class AssetType (models.Model):
 admin.site.register(Companie,CompanyAdmin)
 admin.site.register(Asset) 
 
+
