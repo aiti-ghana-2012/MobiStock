@@ -3,7 +3,7 @@
         "pk": 1, 
         "model": "stock.asset", 
         "fields": {
-            "price_per_share": 0.52000000000000002, 
+            "price_per_share": 0.52, 
             "price_change_per_share": 0.0, 
             "volume_traded": 0, 
             "index_Name": "AADS"
@@ -13,7 +13,7 @@
         "pk": 2, 
         "model": "stock.asset", 
         "fields": {
-            "price_per_share": 0.080000000000000002, 
+            "price_per_share": 0.08, 
             "price_change_per_share": 0.0, 
             "volume_traded": 0, 
             "index_Name": "ACI"
@@ -33,7 +33,7 @@
         "pk": 4, 
         "model": "stock.asset", 
         "fields": {
-            "price_per_share": 0.050000000000000003, 
+            "price_per_share": 0.05, 
             "price_change_per_share": 0.0, 
             "volume_traded": 10097, 
             "index_Name": "ALW"
@@ -43,7 +43,7 @@
         "pk": 5, 
         "model": "stock.asset", 
         "fields": {
-            "price_per_share": 0.17000000000000001, 
+            "price_per_share": 0.17, 
             "price_change_per_share": 0.0, 
             "volume_traded": 0, 
             "index_Name": "AYRTN"
@@ -53,7 +53,7 @@
         "pk": 6, 
         "model": "stock.asset", 
         "fields": {
-            "price_per_share": 1.5800000000000001, 
+            "price_per_share": 1.57, 
             "price_change_per_share": 0.0, 
             "volume_traded": 0, 
             "index_Name": "BOPP"
@@ -73,7 +73,7 @@
         "pk": 8, 
         "model": "stock.asset", 
         "fields": {
-            "price_per_share": 0.040000000000000001, 
+            "price_per_share": 0.04, 
             "price_change_per_share": 0.0, 
             "volume_traded": 0, 
             "index_Name": "CLYD"
@@ -103,7 +103,7 @@
         "pk": 11, 
         "model": "stock.asset", 
         "fields": {
-            "price_per_share": 2.9700000000000002, 
+            "price_per_share": 2.97, 
             "price_change_per_share": -0.01, 
             "volume_traded": 350, 
             "index_Name": "EBG"
@@ -113,7 +113,7 @@
         "pk": 12, 
         "model": "stock.asset", 
         "fields": {
-            "price_per_share": 0.28999999999999998, 
+            "price_per_share": 0.29, 
             "price_change_per_share": 0.0, 
             "volume_traded": 835, 
             "index_Name": "EGL"
@@ -133,7 +133,7 @@
         "pk": 14, 
         "model": "stock.asset", 
         "fields": {
-            "price_per_share": 2.0099999999999998, 
+            "price_per_share": 2.01, 
             "price_change_per_share": 0.0, 
             "volume_traded": 202, 
             "index_Name": "FML"
@@ -153,7 +153,7 @@
         "pk": 16, 
         "model": "stock.asset", 
         "fields": {
-            "price_per_share": 2.3500000000000001, 
+            "price_per_share": 2.35, 
             "price_change_per_share": 0.0, 
             "volume_traded": 16700, 
             "index_Name": "GGBL"
@@ -183,7 +183,7 @@
         "pk": 19, 
         "model": "stock.asset", 
         "fields": {
-            "price_per_share": 0.040000000000000001, 
+            "price_per_share": 0.04, 
             "price_change_per_share": 0.0, 
             "volume_traded": 0, 
             "index_Name": "GWEB"
@@ -193,7 +193,7 @@
         "pk": 20, 
         "model": "stock.asset", 
         "fields": {
-            "price_per_share": 0.45000000000000001, 
+            "price_per_share": 0.45, 
             "price_change_per_share": 0.0, 
             "volume_traded": 0, 
             "index_Name": "HFC"
@@ -203,7 +203,7 @@
         "pk": 21, 
         "model": "stock.asset", 
         "fields": {
-            "price_per_share": 0.089999999999999997, 
+            "price_per_share": 0.09, 
             "price_change_per_share": -0.01, 
             "volume_traded": 2500, 
             "index_Name": "MLC"
@@ -213,7 +213,7 @@
         "pk": 22, 
         "model": "stock.asset", 
         "fields": {
-            "price_per_share": 0.20000000000000001, 
+            "price_per_share": 0.2, 
             "price_change_per_share": 0.0, 
             "volume_traded": 0, 
             "index_Name": "PBC"
@@ -223,7 +223,7 @@
         "pk": 23, 
         "model": "stock.asset", 
         "fields": {
-            "price_per_share": 0.059999999999999998, 
+            "price_per_share": 0.06, 
             "price_change_per_share": 0.0, 
             "volume_traded": 0, 
             "index_Name": "PKL"
@@ -233,7 +233,7 @@
         "pk": 24, 
         "model": "stock.asset", 
         "fields": {
-            "price_per_share": 0.17999999999999999, 
+            "price_per_share": 0.18, 
             "price_change_per_share": 0.0, 
             "volume_traded": 3020, 
             "index_Name": "PZC"
@@ -243,7 +243,7 @@
         "pk": 25, 
         "model": "stock.asset", 
         "fields": {
-            "price_per_share": 44.880000000000003, 
+            "price_per_share": 44.88, 
             "price_change_per_share": 0.0, 
             "volume_traded": 0, 
             "index_Name": "SCB"
@@ -253,7 +253,7 @@
         "pk": 26, 
         "model": "stock.asset", 
         "fields": {
-            "price_per_share": 0.52000000000000002, 
+            "price_per_share": 0.52, 
             "price_change_per_share": 0.0, 
             "volume_traded": 0, 
             "index_Name": "SCB PREF"
@@ -263,7 +263,7 @@
         "pk": 27, 
         "model": "stock.asset", 
         "fields": {
-            "price_per_share": 0.46000000000000002, 
+            "price_per_share": 0.46, 
             "price_change_per_share": 0.0, 
             "volume_traded": 1184, 
             "index_Name": "SG-SSB"
@@ -273,7 +273,7 @@
         "pk": 28, 
         "model": "stock.asset", 
         "fields": {
-            "price_per_share": 0.33000000000000002, 
+            "price_per_share": 0.33, 
             "price_change_per_share": 0.0, 
             "volume_traded": 57680, 
             "index_Name": "SIC"
@@ -283,7 +283,7 @@
         "pk": 29, 
         "model": "stock.asset", 
         "fields": {
-            "price_per_share": 0.040000000000000001, 
+            "price_per_share": 0.04, 
             "price_change_per_share": 0.0, 
             "volume_traded": 0, 
             "index_Name": "SPL"
@@ -303,7 +303,7 @@
         "pk": 31, 
         "model": "stock.asset", 
         "fields": {
-            "price_per_share": 0.40000000000000002, 
+            "price_per_share": 0.4, 
             "price_change_per_share": 0.0, 
             "volume_traded": 0, 
             "index_Name": "TBL"
@@ -313,7 +313,7 @@
         "pk": 32, 
         "model": "stock.asset", 
         "fields": {
-            "price_per_share": 38.549999999999997, 
+            "price_per_share": 38.55, 
             "price_change_per_share": 0.0, 
             "volume_traded": 0, 
             "index_Name": "TLW"
@@ -333,7 +333,7 @@
         "pk": 34, 
         "model": "stock.asset", 
         "fields": {
-            "price_per_share": 0.050000000000000003, 
+            "price_per_share": 0.05, 
             "price_change_per_share": 0.0, 
             "volume_traded": 0, 
             "index_Name": "TRANSOL"
@@ -343,7 +343,7 @@
         "pk": 35, 
         "model": "stock.asset", 
         "fields": {
-            "price_per_share": 8.3000000000000007, 
+            "price_per_share": 8.3, 
             "price_change_per_share": 0.0, 
             "volume_traded": 8215, 
             "index_Name": "UNIL"
@@ -353,7 +353,7 @@
         "pk": 36, 
         "model": "stock.asset", 
         "fields": {
-            "price_per_share": 0.29999999999999999, 
+            "price_per_share": 0.3, 
             "price_change_per_share": 0.0, 
             "volume_traded": 200, 
             "index_Name": "UTB"

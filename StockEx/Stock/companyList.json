@@ -91,12 +91,20 @@
         "pk": 12, 
         "model": "stock.companie", 
         "fields": {
+            "companyIndex": "ETI ", 
+            "companyName": "Ecobank Transnational Incorporated (ETI) "
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "stock.companie", 
+        "fields": {
             "companyIndex": "EGL ", 
             "companyName": "Enterprise Group Limited "
         }
     }, 
     {
-        "pk": 13, 
+        "pk": 14, 
         "model": "stock.companie", 
         "fields": {
             "companyIndex": "FML ", 
@@ -104,7 +112,7 @@
         }
     }, 
     {
-        "pk": 14, 
+        "pk": 15, 
         "model": "stock.companie", 
         "fields": {
             "companyIndex": "GCB ", 
@@ -112,7 +120,7 @@
         }
     }, 
     {
-        "pk": 15, 
+        "pk": 16, 
         "model": "stock.companie", 
         "fields": {
             "companyIndex": "GOIL ", 
@@ -120,7 +128,7 @@
         }
     }, 
     {
-        "pk": 16, 
+        "pk": 17, 
         "model": "stock.companie", 
         "fields": {
             "companyIndex": "GSR ", 
@@ -128,7 +136,7 @@
         }
     }, 
     {
-        "pk": 17, 
+        "pk": 18, 
         "model": "stock.companie", 
         "fields": {
             "companyIndex": "GWEB ", 
@@ -136,7 +144,7 @@
         }
     }, 
     {
-        "pk": 18, 
+        "pk": 19, 
         "model": "stock.companie", 
         "fields": {
             "companyIndex": "GGBL ", 
@@ -144,7 +152,7 @@
         }
     }, 
     {
-        "pk": 19, 
+        "pk": 20, 
         "model": "stock.companie", 
         "fields": {
             "companyIndex": "HFC ", 
@@ -152,7 +160,7 @@
         }
     }, 
     {
-        "pk": 20, 
+        "pk": 21, 
         "model": "stock.companie", 
         "fields": {
             "companyIndex": "MLC ", 
@@ -160,7 +168,7 @@
         }
     }, 
     {
-        "pk": 21, 
+        "pk": 22, 
         "model": "stock.companie", 
         "fields": {
             "companyIndex": "PZC ", 
@@ -168,7 +176,7 @@
         }
     }, 
     {
-        "pk": 22, 
+        "pk": 23, 
         "model": "stock.companie", 
         "fields": {
             "companyIndex": "PKL ", 
@@ -176,7 +184,7 @@
         }
     }, 
     {
-        "pk": 23, 
+        "pk": 24, 
         "model": "stock.companie", 
         "fields": {
             "companyIndex": "PBC ", 
@@ -184,7 +192,7 @@
         }
     }, 
     {
-        "pk": 24, 
+        "pk": 25, 
         "model": "stock.companie", 
         "fields": {
             "companyIndex": "SWL ", 
@@ -192,7 +200,7 @@
         }
     }, 
     {
-        "pk": 25, 
+        "pk": 26, 
         "model": "stock.companie", 
         "fields": {
             "companyIndex": "SG-SSB ", 
@@ -200,7 +208,7 @@
         }
     }, 
     {
-        "pk": 26, 
+        "pk": 27, 
         "model": "stock.companie", 
         "fields": {
             "companyIndex": "SCB PREF ", 
@@ -208,7 +216,7 @@
         }
     }, 
     {
-        "pk": 27, 
+        "pk": 28, 
         "model": "stock.companie", 
         "fields": {
             "companyIndex": "SCB ", 
@@ -216,7 +224,7 @@
         }
     }, 
     {
-        "pk": 28, 
+        "pk": 29, 
         "model": "stock.companie", 
         "fields": {
             "companyIndex": "SPL ", 
@@ -224,7 +232,7 @@
         }
     }, 
     {
-        "pk": 29, 
+        "pk": 30, 
         "model": "stock.companie", 
         "fields": {
             "companyIndex": "SIC ", 
@@ -232,7 +240,7 @@
         }
     }, 
     {
-        "pk": 30, 
+        "pk": 31, 
         "model": "stock.companie", 
         "fields": {
             "companyIndex": "TOTAL ", 
@@ -240,7 +248,7 @@
         }
     }, 
     {
-        "pk": 31, 
+        "pk": 32, 
         "model": "stock.companie", 
         "fields": {
             "companyIndex": "TRANSOL ", 
@@ -248,7 +256,7 @@
         }
     }, 
     {
-        "pk": 32, 
+        "pk": 33, 
         "model": "stock.companie", 
         "fields": {
             "companyIndex": "TBL ", 
@@ -256,7 +264,7 @@
         }
     }, 
     {
-        "pk": 33, 
+        "pk": 34, 
         "model": "stock.companie", 
         "fields": {
             "companyIndex": "TLW ", 
@@ -264,7 +272,7 @@
         }
     }, 
     {
-        "pk": 34, 
+        "pk": 35, 
         "model": "stock.companie", 
         "fields": {
             "companyIndex": "UNIL ", 
@@ -272,7 +280,7 @@
         }
     }, 
     {
-        "pk": 35, 
+        "pk": 36, 
         "model": "stock.companie", 
         "fields": {
             "companyIndex": "UTB ", 

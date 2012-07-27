@@ -1,4 +1,0 @@
-from notes.models import stockExApp
-from django.contrib import admin
-admin.site.register(stockExApp)
-

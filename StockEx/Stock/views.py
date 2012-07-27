@@ -2,9 +2,9 @@
 from django.template import Context, loader
 from django.http import HttpResponse
 from models import stock_data
-from gse import get_ticker_data()
+from gse import get_ticker_data
 from django.shortcuts import render_to_response
-from models import Post, Comment 
+#from models import Post, Comment 
 #import datetime	
 
 #def update_database(request):
