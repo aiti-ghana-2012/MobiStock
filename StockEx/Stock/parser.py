@@ -15,7 +15,7 @@ print companies
 companyData = []
 pk =1
 for c in companies :
-	companyData.append({"model":"stock.companie","pk":pk,\
+	companyData.append({"model":"Stock.companie","pk":pk,\
 	    "fields":{
             'companyName' : c[1],
             'companyIndex' : c[0],

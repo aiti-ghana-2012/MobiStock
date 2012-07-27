@@ -1,6 +1,8 @@
 from django.db import models
 from django.contrib import admin
-import gse
+#import gse
+import datetime
+
 # Create your models here.
 #class stock_data(models.Model):
 #	company_name = models.CharField(max_length=60)
@@ -18,7 +20,7 @@ import gse
 #COMPANY MODEL
 class Companie(models.Model):
       companyName = models.CharField(max_length=100)
-      companyIndex = models.CharField(max_length=60)
+      companyIndex = models.CharField(max_length=20)
       #lowForYear = models.FloatField()
       #highForYear = models.FloatField()
       #dateCreated = models.DateField(auto_now = True)
@@ -61,6 +63,6 @@ class AssetType (models.Model):
   '''  
 
 admin.site.register(Companie,CompanyAdmin)
-admin.site.register(Asset) 
+admin.site.register(Asset,AssetAdmin) 
 
 

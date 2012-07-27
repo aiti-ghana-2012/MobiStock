@@ -1,8 +1,8 @@
 # Create your views here.
 from django.template import Context, loader
 from django.http import HttpResponse
-from models import stock_data
-from gse import get_ticker_data
+#from models import stock_data
+from gse import get_ticker_data()
 from django.shortcuts import render_to_response
 #from models import Post, Comment 
 #import datetime	

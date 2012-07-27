@@ -77,7 +77,7 @@ def get_ticker_data():
             raise ValueError(error("Expected to be able to create a float out of content of second span %s"%data[1]))
     
         ticker_order.append(ticker_symbol)
-        ticker_data[ticker_symbol] = {"model":"stock.asset","pk":pk,\
+        ticker_data[ticker_symbol] = {"model":"Stock.asset","pk":pk,\
 	    "fields":{
             'price_per_share' : price,
             'price_change_per_share' : change,

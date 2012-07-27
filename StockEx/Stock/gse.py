@@ -54,7 +54,8 @@ def get_ticker_data():
     # lets form our datastructure now.
     ticker_data = {}
     ticker_order = []
-
+    pk = 1
+  
     for ticker_cell in ticker_cells[1:]:
         ticker_cell_spans = ticker_cell.find_all('span')
     
@@ -76,11 +77,14 @@ def get_ticker_data():
             raise ValueError(error("Expected to be able to create a float out of content of second span %s"%data[1]))
     
         ticker_order.append(ticker_symbol)
-        ticker_data[ticker_symbol] = {
-            'price' : price,
-            'change' : change,
-            'symbol' : ticker_symbol,
+        ticker_data[ticker_symbol] = {"model":"Stock.asset","pk":pk,\
+	    "fields":{
+            'price_per_share' : price,
+            'price_change_per_share' : change,
+            'index_Name' : ticker_symbol,
+	}
         }
+        pk +=1
     
     if not len(ticker_order) == len(volume_cells) - 1:
         raise ValueError(error("Expected number of volume cells to be one more than number of ticker symbols!"))
@@ -92,7 +96,7 @@ def get_ticker_data():
         except ValueError:
             raise ValueError(error("Expected content of volume cell to be integer! got: %s" % volume_cell))
         
-        ticker_data[symbol]['volume'] = volume
+        ticker_data[symbol]["fields"]['volume_traded'] = volume
     
     
     
@@ -101,4 +105,7 @@ def get_ticker_data():
     
     
 if __name__ == "__main__":
-    print json.dumps(get_ticker_data(), indent=4)
+    f = open("asset.json",'w')
+    f.write(json.dumps(get_ticker_data(), indent=4))
+    f.close()
+   # print json.dumps(get_ticker_data(), indent=4)
