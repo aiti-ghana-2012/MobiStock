@@ -1,0 +1,13 @@
+{% extends "Stock/base.html"%}
+
+{% block content %}
+<h3>SEARCH RESULTS ({{news.count}}) Found</h3><hr/>
+{% for s in news %}
+<blockquote>
+	<a href="/Stock/eureka/{{ s.id }}/True"><h3 style="text-align:justify;" >{{ s }}</h3></a><br/>
+	<p style="font-size:14px; text-align:justify;">{{s.body_first_60}}<a href="/Stock/eureka/{{s.id}}/True" color='blue'>...Read more...</a></p>
+	<a href="/Stock/eureka/{{ s.id }}/True"><i class="icon-comment"></i>&nbsp<em>{{s.comments.count}} Comment(s)</em></a>
+	<hr/>
+</blockquote>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,51 @@
+{% extends "Stock/base.html"%}
+
+{% block content %}
+	<div style="postion:relative;">
+	<blockquote>
+	<h2 style="text-align:justify;">{{ FinancialNew.headline}}</h2> <br/>
+	<small>Created : {{ FinancialNew.pub_date }} &nbsp&nbsp
+	</small><br/><br/>
+	<p style="text-align:justify;">{{ FinancialNew.content }}</p></blockquote>
+	<h4>VIEWS</h4><hr/>
+	
+	{% ifequal view.count 0 %}
+	<p> There are no comment(s) for this news.</p>
+
+	{% else %}		
+	<em> {{view.count}}  Comment(s) made.</em><hr/>
+	{% for c in view %}
+		
+		
+		<blockquote>
+		<p style="font-size:14px; text-align:justify;">{{c.body}}</p>
+		<small>Author : {{ c.author }} <br/>
+		Created : {{ c.date_created }} &nbsp&nbsp
+		Last Updated : {{ c.date_updated }} &nbsp&nbsp
+		
+		{% ifequal c.author  user.username %}
+		
+			<a href="/Stock/comments/{{ c.id }}/edit">
+			<i class="icon-edit"></i>
+			Edit Comment
+			</a>
+		
+		{% endifequal %}
+		</small><hr/>
+	</blockquote>
+	{% endfor %}
+	{% endifequal %}
+	<br/>
+	{% ifnotequal user.username '' %}
+		<h4>NEW COMMENT:</h4>
+		
+			<form  method='post' action="">
+				{{ form.as_p }}
+				<input class="btn btn-primary" type='submit' name='Submit' value='Comment'>
+			</form>
+		</div>
+	{% endifnotequal %}
+
+
+
+{% endblock %}

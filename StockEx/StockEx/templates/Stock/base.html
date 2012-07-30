@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head> 
+	<title>EUREKA</title>
+		<link rel="stylesheet" href="/static/bootstrap/css/bootstrap.css" type = "text/css"/>
+        	
+	</head>
+
+	<body style="">	
+
+   	 <div class="container-fluid">
+    		<div class="row-fluid">
+    			
+    			<div id = "content" class="span10">
+				<div class="well"  >
+					    
+					<b style="color:black; font-size:35px; margin-left:300px; margin-bottom:0px;"></b>
+				</div>
+	
+		  			 <div class="stockmenu" style="position:relative;">
+     					 <ul>  					   
+						
+     					 
+						<form class="navbar-search pull-right" method="GET" action="/Stock/eureka/search/">
+						   <i class="icon-search"></i>
+					<input type="text" style="border: 1px solid blue;" class="form-search" placeholder="Search"name="search_item" >
+    					    </form>
+					</ul>		
+    					</div>
+					    <ul class="breadcrumb">
+    						<li>
+  						  <a href="/Stock">Home</a> <span class="divider">|</span>
+  						  </li>
+  						  <li>
+							<a href="/Stock/asset">Projects</a> <span class="divider">|</span>
+						    </li>
+
+						    <li> <a href="/Stock/">News</a> <span class="divider">|</span>
+                                                   </li>
+							{% ifnotequal user.username '' %}
+<li><b style="margin-left:350px;"><i class="icon-user"></i>{{user.username}}</b></li>
+{% endifnotequal %}
+
+						    </ul> 
+		<a href="#"><img alt="" class="pic" src="/page3_pic2.png" /></a>
+			
+		{% block content %}
+			    <div style="position:relative;" class="hero-unit">
+				    <p>Welcome</p>
+
+                                    <img src="/images/dp.png" alt=" StockEx" width="100" height="333" />
+
+					<!--<object width="400" height="400" data="StockEX Presentation.exe"></object>  --> 
+
+				   <!-- <p style="text-align:justify;">Please do <a href="/reg/login">login</a> to be able to comment on a news items and to edit your comment as long as you are logged in. Thank you</p>
+					    <a href="/blog/posts" class="btn btn-primary btn-large"> See our news items </a>
+				    </p> -->
+    			   </div>
+		
+		
+
+		{% endblock %}	
+			
+    <!--Body content-->
+<div style="position:relative; bottom:0px;">
+<ul class="breadcrumb">
+
+
+<div id="footer">
+		  	<span><a href="about.html">About Us</a> | <a href="services.html">Services</a> | <a href="products.html">Products</a> | <a href="contacts.html">Contacts</a></span><p>EUREKA &copy; 2012 | <a href="privacy.html">Privacy Policy</a></p>
+		</div>	
+
+</ul> </div>
+    		</div>
+		
+    	</div>
+	
+    </div>
+
+
+
+ 
+	</body>
+</html>

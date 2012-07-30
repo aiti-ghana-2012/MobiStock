@@ -6,8 +6,12 @@ import views
 #	url(r'^detail/(?P<id>\d+)/$', views.notes_detail, name='notes_detail'),
 #)
 urlpatterns = patterns('',
-    url(r'^$', 'blog.views.home'),
-    url(r'^posts/$', 'blog.views.post_list'),
-    url(r'^posts/(?P<id>\d+)/((?P<showComments>.*)/)?$',           'blog.views.post_detail'),
-    url(r'^posts/search/(?P<term>.*?)$','blog.views.post_search'),
+    url(r'^$', 'Stock.views.home'),
+    url(r'^asset/$', 'Stock.views.assets_list'),
+    url(r'^eureka/(?P<id>\d+)/((?P<showComments>.*)/)?$',           'Stock.views.post_detail'),
+    url(r'^eureka/search/(?P<term>.*?)$','Stock.views.post_search'),
+    url(r'^comments/(?P<id>\d+)/edit/$','Stock.views.edit_comment'),
+    # News urls
+    url(r'^news/(\d{4})/$', 'Stock.views.year_archive'),
+
 )

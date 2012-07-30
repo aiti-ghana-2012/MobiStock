@@ -1,0 +1,15 @@
+{% extends "Stock/base.html"%}
+
+{% block title %}Financial News for {{ year }}{% endblock %}
+
+{% block content %}
+<h1>Financial News for {{ year }}</h1>
+
+{% for article in FinancialNew_list %}
+<p>{{ article.headline }}</p>
+<p>By {{ article.reporter.full_name }}</p>
+<p>Published {{ article.pub_date|date:"F j, Y" }}</p>
+{% endfor %}
+{% endblock %}
+
+

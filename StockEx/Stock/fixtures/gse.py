@@ -82,6 +82,7 @@ def get_ticker_data():
             'price_per_share' : price,
             'price_change_per_share' : change,
             'index_Name' : ticker_symbol,
+            #'company_Name':'',
 	}
         }
         pk +=1

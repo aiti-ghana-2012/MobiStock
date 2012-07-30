@@ -1,0 +1,27 @@
+{% extends "Stock/base.html" %}
+
+{% block title %} Assets {% endblock %}
+
+{% block content %}
+<h1>STOCK INFO OF COMPANIES ON THE GHANA STOCK EXCHANGE</h1>
+<ul class="breadcrumb">
+<table border="1">
+<tr>
+  <th><a>COMPANY INDEX</a></th>
+  <th><a>VOLUME TRADED</a></th>
+  <th><a>PRICE TRADED PER SHARE</a></th>
+  <th><a>PRICE PER SHARE</a></th>
+
+</tr>
+ {%  for asset in assets %}<p>
+<tr>
+  <td>{{ asset.index_Name }}</td>
+  <td>{{asset.volume_traded}}</td>
+  <td>{{asset.price_per_share}}</td>
+<td>{{asset.price_change_per_share}}</td>
+</tr>
+</p>
+{% endfor %}
+</table>
+</ul>
+{%endblock%}
