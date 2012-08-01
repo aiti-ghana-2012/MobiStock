@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    >
+       <ExpandableListView
+           android:id = "@android:id/list"
+           android:layout_width = "wrap_content"
+           android:layout_height = "wrap_content" >
+       </ExpandableListView>   
+   <ListView
+       android:id="@+id/GCB"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent" >
+
+       </ListView>
+
+   <TableLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:stretchColumns = "1" >
+      
+       <TableRow
+           android:id="@+id/CompanyName"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" >
+       </TableRow>
+
+       <TableRow
+           android:id="@+id/PricePerShare"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" >
+       </TableRow>
+
+       <TableRow
+           android:id="@+id/PriceChangePerShare"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" >
+       </TableRow>
+
+       <TableRow
+           android:id="@+id/VolumeTraded"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" >
+       </TableRow>
+       <DigitalClock ></DigitalClock>
+   </TableLayout>
+
+</RelativeLayout>

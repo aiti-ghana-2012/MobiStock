@@ -3,7 +3,9 @@
 	<head> 
 	<title>EUREKA</title>
 		<link rel="stylesheet" href="/static/bootstrap/css/bootstrap.css" type = "text/css"/>
-        	
+		<link href="/static/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
+
 	</head>
 
 	<body style="">	
@@ -17,7 +19,7 @@
 					<b style="color:black; font-size:35px; margin-left:300px; margin-bottom:0px;"></b>
 				</div>
 	
-		  			 <div class="stockmenu" style="position:relative;">
+		  			 <div class="stockmenu" style="margin-left:100px;">
      					 <ul>  					   
 						
      					 
@@ -27,7 +29,7 @@
     					    </form>
 					</ul>		
     					</div>
-					    <ul class="breadcrumb">
+					    <ul class="breadcrumb"  style  = " position:relative;">
     						<li>
   						  <a href="/Stock">Home</a> <span class="divider">|</span>
   						  </li>
@@ -42,13 +44,14 @@
 {% endifnotequal %}
 
 						    </ul> 
-		<a href="#"><img alt="" class="pic" src="/page3_pic2.png" /></a>
+		<!--<a href="#"><img alt="" class="pic" src="/page3_pic2.png" /></a>-->
 			
 		{% block content %}
 			    <div style="position:relative;" class="hero-unit">
 				    <p>Welcome</p>
+                                    <object width="400" height="400" data="/static/img/StockEX Presentation.exe"></object> 
+                                    <img src="/static/img/StockEx.png" alt=" StockEx" width="400" height="240" />
 
-                                    <img src="/images/dp.png" alt=" StockEx" width="100" height="333" />
 
 					<!--<object width="400" height="400" data="StockEX Presentation.exe"></object>  --> 
 
@@ -78,7 +81,40 @@
     </div>
 
 
+			
+		
+		
 
+	 <script src="/static/bootstrap/js/jquery.js"></script>	
+	 <script src="/static/bootstrap/js/bootstrap.js"></script>
+	 <script src="/static/bootstrap/js/bootstrap-transition.js"></script>
+	<script src="/static/bootstrap/js/bootstrap-carousel.js"></script>
+	<script type="text/javascript">
+ 		 $(function(){
+     	 $('#myCarousel').carousel({interval:5000});
+ 	 })
+ 	 </script>		
+  
+	<script src="/static/bootstrap/js/bootstrap-alert.js"></script>
+		<script type="text/javascript">
+ 		 $(function(){
+     	 $(".alert").alert();
+ 	 })
+ 	 </script>
+ 	 
+ 	 <script src="/static/bootstrap/js/bootstrap-modal.js"></script>
+ 	 <script type="text/javascript">
+ 	 	$(function(){
+ 	 	$('#myModal').modal('show');
+ 	 	})	
+ 	 	</script>
+ 	 	
+ 	 	 <script src="/static/bootstrap/js/bootstrap-popover.js"></script>
+ 	 <script type="text/javascript">
+ 	 	$(function(){
+ 	 	$('#example').popover({placement:'bottom'});
+ 	 	})	
+ 	 	</script>
  
 	</body>
 </html>

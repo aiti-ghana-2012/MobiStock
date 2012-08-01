@@ -8,7 +8,10 @@ import views
 urlpatterns = patterns('',
     url(r'^$', 'Stock.views.home'),
     url(r'^asset/$', 'Stock.views.assets_list'),
-    url(r'^eureka/(?P<id>\d+)/((?P<showComments>.*)/)?$',           'Stock.views.post_detail'),
+    url(r'^json/companies/$', 'Stock.views.json_companies'),
+    url(r'^json/index/$', 'Stock.views.json_index'),
+    url(r'^about/$', 'Stock.views.about_us'),
+    url(r'^eureka/(?P<id>\d+)/((?P<showComments>.*)/)?$', 'Stock.views.post_detail'),
     url(r'^eureka/search/(?P<term>.*?)$','Stock.views.post_search'),
     url(r'^comments/(?P<id>\d+)/edit/$','Stock.views.edit_comment'),
     # News urls

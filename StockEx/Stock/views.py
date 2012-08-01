@@ -5,7 +5,7 @@ from django.http import HttpResponseRedirect, HttpResponseForbidden
 from django.template import Context, loader
 from django.http import HttpResponse
 from django.shortcuts import render_to_response
-
+import json
 from models import Companie, Asset,FinancialNew,View 
 
 #
@@ -25,13 +25,36 @@ def year_archive(request, year):
     t = loader.get_template('Stock/year_archive.html')
     c = Context({'year_list':year_list,'user': request.user})
     return HttpResponse(t.render(c))
-
    # return render_to_response('Stock/year_archive.html', {'year': year, 'FinancialNew_list': a_list})
 
+def json_companies(request):
+    companies = Companie.objects.all()
+    company = {"companies":[]}
+    for c in companies:
+        d = {"companyName":c.companyName,
+            "companyIndex":c.companyIndex 
+            }
+        company["companies"].append(d)
+    return HttpResponse (json.dumps(company))
+
+def json_index(request):   
+    assets = Asset.objects.all()
+    asset = {"assets":[]}
+    for c in assets:
+        d = {"volume_traded":c.volume_traded,
+             "price_per_share":c.price_per_share,
+	    "index_Name":c.index_Name,
+            "price_change_per_share":c.price_change_per_share
+            } 
+        asset["assets"].append(d)
+    return HttpResponse (json.dumps(asset))
+ 
+def about_us(request):
+    return render_to_response('Stock/about-us.htm')
 
 #@csrf_exempt	
 def edit_comment(request,id):
-   pass
+    pass
 '''
 	comment = NewsComment.objects.get(pk=id)
 	if request.user.username == '':
@@ -47,15 +70,6 @@ def edit_comment(request,id):
 		form = CommentForm(instance=comment)
 		
 	return render_to_response('blog/edit_comment.html',{'comment':comment,'form':form,'user': request.user})
-'''
-
-#def update_database(request):
-#	updateDatabase
-'''
-def import_data(request):
-     import_dataa = get_ticker_data.objects.all()
-     for data in import_dataa
-     print data
 '''
 #def post_list(request):
     #post_list = Post.objects.all()
@@ -76,4 +90,4 @@ def post_search(request, term):
 	return render_to_response('Stock/post_search.html',{'news':news,'term':term,'user': request.user})
 
 def home(request):
-    return render_to_response('Stock/base.html',{'user': request.user})
+    return render_to_response('Stock/index.htm')
