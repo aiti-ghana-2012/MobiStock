@@ -45,7 +45,7 @@
         "fields": {
             "price_per_share": 0.17, 
             "price_change_per_share": 0.0, 
-            "volume_traded": 500, 
+            "volume_traded": 0, 
             "index_Name": "AYRTN"
         }
     }, 
@@ -63,9 +63,9 @@
         "pk": 7, 
         "model": "Stock.asset", 
         "fields": {
-            "price_per_share": 0.3, 
-            "price_change_per_share": -0.01, 
-            "volume_traded": 25500, 
+            "price_per_share": 0.31, 
+            "price_change_per_share": 0.0, 
+            "volume_traded": 0, 
             "index_Name": "CAL"
         }
     }, 
@@ -103,7 +103,7 @@
         "pk": 11, 
         "model": "Stock.asset", 
         "fields": {
-            "price_per_share": 2.98, 
+            "price_per_share": 3.05, 
             "price_change_per_share": 0.0, 
             "volume_traded": 0, 
             "index_Name": "EBG"
@@ -115,7 +115,7 @@
         "fields": {
             "price_per_share": 0.29, 
             "price_change_per_share": 0.0, 
-            "volume_traded": 2100, 
+            "volume_traded": 0, 
             "index_Name": "EGL"
         }
     }, 
@@ -125,7 +125,7 @@
         "fields": {
             "price_per_share": 0.11, 
             "price_change_per_share": 0.0, 
-            "volume_traded": 118300, 
+            "volume_traded": 0, 
             "index_Name": "ETI"
         }
     }, 
@@ -133,7 +133,7 @@
         "pk": 14, 
         "model": "Stock.asset", 
         "fields": {
-            "price_per_share": 2.23, 
+            "price_per_share": 2.42, 
             "price_change_per_share": 0.0, 
             "volume_traded": 0, 
             "index_Name": "FML"
@@ -145,7 +145,7 @@
         "fields": {
             "price_per_share": 2.0, 
             "price_change_per_share": 0.0, 
-            "volume_traded": 55122, 
+            "volume_traded": 0, 
             "index_Name": "GCB"
         }
     }, 
@@ -164,8 +164,8 @@
         "model": "Stock.asset", 
         "fields": {
             "price_per_share": 0.52, 
-            "price_change_per_share": 0.01, 
-            "volume_traded": 15000, 
+            "price_change_per_share": 0.0, 
+            "volume_traded": 0, 
             "index_Name": "GOIL"
         }
     }, 
@@ -215,7 +215,7 @@
         "fields": {
             "price_per_share": 0.2, 
             "price_change_per_share": 0.0, 
-            "volume_traded": 3335, 
+            "volume_traded": 0, 
             "index_Name": "PBC"
         }
     }, 
@@ -243,7 +243,7 @@
         "pk": 25, 
         "model": "Stock.asset", 
         "fields": {
-            "price_per_share": 44.88, 
+            "price_per_share": 44.9, 
             "price_change_per_share": 0.0, 
             "volume_traded": 0, 
             "index_Name": "SCB"
@@ -275,7 +275,7 @@
         "fields": {
             "price_per_share": 0.33, 
             "price_change_per_share": 0.0, 
-            "volume_traded": 3000, 
+            "volume_traded": 0, 
             "index_Name": "SIC"
         }
     }, 
@@ -313,9 +313,9 @@
         "pk": 32, 
         "model": "Stock.asset", 
         "fields": {
-            "price_per_share": 38.5, 
-            "price_change_per_share": -0.05, 
-            "volume_traded": 370, 
+            "price_per_share": 38.45, 
+            "price_change_per_share": 0.0, 
+            "volume_traded": 0, 
             "index_Name": "TLW"
         }
     }, 
@@ -325,7 +325,7 @@
         "fields": {
             "price_per_share": 18.0, 
             "price_change_per_share": 0.0, 
-            "volume_traded": 1614, 
+            "volume_traded": 0, 
             "index_Name": "TOTAL"
         }
     }, 
@@ -345,7 +345,7 @@
         "fields": {
             "price_per_share": 8.3, 
             "price_change_per_share": 0.0, 
-            "volume_traded": 5300, 
+            "volume_traded": 0, 
             "index_Name": "UNIL"
         }
     }, 
